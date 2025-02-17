@@ -1,4 +1,4 @@
-package com.situ.blog;
+package com.situ.blog.pojo;
 
 import lombok.Data;
 import java.util.Date;

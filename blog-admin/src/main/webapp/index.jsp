@@ -1,4 +1,3 @@
-<%--<%@ page import="com.situ.web.pojo.User" %>--%>
 <%@ page isELIgnored="false" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -16,12 +15,11 @@
     <ul class="layui-nav layui-layout-right">
       <li class="layui-nav-item">
         <a href="javascript:;">
-
-<%--          <%--%>
-<%--              User user = (User) session.getAttribute("user");--%>
-<%--          %>--%>
-<%--          <%=user.getName()%>--%>
-<%--          这个地方加用户照片--%>
+          <%--
+          <%
+              User user = (User) session.getAttribute("user");
+          %>
+          <%=user.getName()%>--%>
           <img width="40px" height="30px" src="/pic/${admin.image}"/> ${sessionScope.user.name}__${user.name}
         </a>
         <dl class="layui-nav-child">
@@ -57,17 +55,17 @@
             </c:forEach>--%>
             <dd>
               <a href="javascript:;"
-                 data-url="/banji"
-                 class="site-demo-active">班级管理</a>
+                 data-url="/page/blog/list"
+                 class="site-demo-active">博客管理</a>
             </dd>
             <dd>
               <a href="javascript:;"
-                 data-url="/student"
-                 class="site-demo-active">学生管理</a>
+                 data-url="/page/type/list"
+                 class="site-demo-active">博客分类管理</a>
             </dd>
             <dd>
               <a href="javascript:;"
-                 data-url="/course"
+                 data-url="/course_list.jsp"
                  class="site-demo-active">课程管理</a>
             </dd>
             <dd>
