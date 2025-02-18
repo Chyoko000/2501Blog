@@ -10,7 +10,7 @@
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
   <div class="layui-header">
-    <div class="layui-logo">JAVA-0000</div>
+    <div class="layui-logo">JAVA</div>
     <ul class="layui-nav layui-layout-left">   </ul>
     <ul class="layui-nav layui-layout-right">
       <li class="layui-nav-item">
